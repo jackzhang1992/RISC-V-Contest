@@ -1,15 +1,16 @@
 # RISC-V-Contest
-this repo is used for development for the risc-v softcpu contest
+This repo is used for development of the risc-v softcpu contest
+
 Goal:
    To create the highest performance, modular and vendor-independent 
    RISC-V softcpu! 
    
 tradeoffs:  timing, function, area
     
-contributor: Jack Zhang & Romer
+Contributor: Jack Zhang & Romer
 ================================================================
 Memo
-- initial assessing stage
+- initial assessing phase
    dhrystone benchmark comparison
    study the RV32I compatible test
    set up a ref env for qemu-riscv (drystone, zephyr porting)
@@ -19,7 +20,7 @@ Memo
     Mi-V core, tool chain, dhrystone and zephyr should work 
     benchmark result should be computed by the ref baseline.
    
-- start to design our own cpu to take place the  Mi-V core
+- get started to design our own cpu to take place of the Mi-V core
    considerations:
     * ISA implementation
     * in-order
@@ -29,10 +30,11 @@ Memo
       out of order
       (multi-threading/ or multicore)
       customized speedup hw logic for dhrystone
-   
+      novel approachs to realize the core structure
+      
  - a simple and naive core should work in the ref baseline framework
       
- - optimization stage for the naive core
+ - optimization phase for the naive core
  
  
  
