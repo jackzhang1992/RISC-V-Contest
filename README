@@ -2,8 +2,7 @@
 This repo is used for development of the risc-v softcpu contest
 
 Goal:
-   To create the highest performance, modular and vendor-independent 
-   RISC-V softcpu! 
+   To create a RISC-V softcpu with highest performance using 20~25k limited FPGA resources!
    
 tradeoffs:  timing, function, area
     
