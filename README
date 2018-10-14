@@ -1,10 +1,18 @@
 # RISC-V-Contest
-this repo is used for development for riscv-v softcpu contest
+this repo is used for development for the risc-v softcpu contest
 
+contributor: Jack Zhang & Romer
+================================================================
 Memo
-- Take use of existed materials(including cores) to make up a reference baseline
+- initial assessing stage
+   -dhrystone benchmark comparison
+   -set up a ref env for qemu-riscv (drystone, zephyr porting)
+   -study the existed verilog-based RV32 HW structure and performance
+
+- Take use of existed materials(including cores) to make up a working reference baseline
    Mi-V core, tool chain, dhrystone and zephyr should work 
    benchmark result should be computed by the ref baseline.
+   
    
 - start to design our own cpu to take place the  Mi-V core
     isa implementation
@@ -12,5 +20,5 @@ Memo
     branch predictor
     two or more issue core
     out of order
-    
-
+ 
+ 
